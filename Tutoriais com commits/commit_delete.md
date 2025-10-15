@@ -56,7 +56,10 @@ pick numeração do commit 1 Mensagem do commit 1
 drop numeração do commit 2 Mensagem do commit 2
 drop numeração do commit 3 Mensagem do commit 3
 ```
-> O commit marcado como `drop` será **removido permanentemente** do histórico.
+### ⚠️ Atenção antes de continuar
+> Ao deletar um commit usando `drop`, **todas as alterações, arquivos ou modificações feitas naquele commit também serão apagadas definitivamente**.  
+> Isso significa que, caso você ainda precise de algo desse commit, **faça um backup ou crie uma nova branch antes** de confirmar o rebase.  
+> Após salvar e finalizar, não será possível recuperar as mudanças, a menos que você tenha uma cópia local ou remota anterior.
 
 ---
 
